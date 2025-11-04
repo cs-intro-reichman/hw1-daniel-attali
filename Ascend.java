@@ -3,21 +3,12 @@
 public class Ascend {
 	public static void main(String[] args) {
 	int a,b,c ;
-	a= (int)(Math.random()*10)+1 ;
-	b= (int)(Math.random()*10)+1 ;
-	c= (int)(Math.random()*10)+1 ;
-	if (a>b && b>c) { 
-	System.out.println(c+","+b+","+a); 
-	}else if (a<=b && b<=c) {
-	System.out.println(a+","+b+","+c);	
-	}else if (a<=c && b>=c) {
-	System.out.println(a+","+c+","+b);}
-	else if (a>=c && b<=c) {
-	System.out.println(b+","+c+","+a);
-	}else if (a>=c && b>=a) {
-	System.out.println(c+","+a+","+b);}
-	else if (a<=c && b<=a) {
-	System.out.println(b+","+a+","+c);}
+	a= (int)(Math.random()*100)+1 ;
+	b= (int)(Math.random()*100)+1 ;
+	c= (int)(Math.random()*100)+1 ;
+	int First = Math.min(a,Math.min(c, b));
+	int last = Math.max(a,Math.max(c, b));
+	int midlle = a+b+c - (last+First);
+	System.out.println(a+" "+b+" "+c+"\n"+ First+" "+midlle+" "+last);
 	}
 }
-
