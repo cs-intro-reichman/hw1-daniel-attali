@@ -1,3 +1,9 @@
+/* Feedback:
+Here you do exactly what i meant by cleaner code with spacings. Try to read this vs Ascend.java.
+What is easier to read? 
+Great work
+*/
+
 // Splits a restaurant bill evenly among three diners.
 public class Bill3 {
     public static void main(String[] args) {
