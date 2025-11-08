@@ -1,3 +1,10 @@
+/* feedback:
+I really like that you give meaningful names to variables, 
+it's very important for code readability. But again the code lacks 
+spacings. Even in small programs, we should be writing code cleanly
+and with spacings 
+*/
+
 // Computes the future value of a saving investment.
 public class FVCalc {
 	public static void main(String[] args){
